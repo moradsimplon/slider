@@ -9,26 +9,44 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script> -->
     </head>
     <body>
-    <div class="caroussel">
-      <img src="img/slide1.jpg" alt="slide">
-      <img src="img/slide2.jpg" alt="slide">
-      <img src="img/slide3.jpg" alt="slide">
+      <section class="container">
+
+    <div class="caroussel col-sm-12 col-12">
+      <img class="col-12 col-sm-12" id="img0" src="img/slide1.jpg" alt="slide">
+      <img class="col-12 col-sm-12" id="img1" src="img/slide2.jpg" alt="slide">
+      <img class="col-12 col-sm-12" id="img2" src="img/slide3.jpg" alt="slide">
 
     </div>
-<div class="boutton">
-  <button type="button" name="button">precedent</button>
-  <button type="button" name="button">suivant</button>
+<div class="boutton col-sm-12 col-12">
+  <button type="button" name="button" onclick="precedent()">precedent</button>
+  <button type="button" name="button" onclick="suivant()">suivant</button>
 
 </div>
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+</section>
+
+<!--
+<article class="article blue"></article>
+      <article class="article red"></article>
+      <article class="article yellow"></article>
+      <article class="article green"></article>
+
+
+     <article class="choose blue">blue</article>
+      <article class="choose red">red</article>
+      <article class="choose yellow">yellow</article>
+      <article class="choose green">green</article>
+       -->
+        <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <script src="js/plugins.js"></script> -->
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
